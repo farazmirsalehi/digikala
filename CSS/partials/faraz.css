@@ -1,0 +1,30 @@
+.faraz {
+    width: 100%;
+    height: 300px;
+    /* background-color:darkorange; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    .faraz-center {
+        width: 75%;
+        height: inherit;
+        /* background-color: burlywood; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        column-gap: 20px;
+        div {
+            width: 320px;
+            height: 240px;
+            /* background-color: cornflowerblue; */
+            border-radius: 15px;
+            img {
+                width: 320px;
+                height: 240px;
+                border-radius: 15px;
+                object-fit: cover;
+            }
+        }
+    }
+}

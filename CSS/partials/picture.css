@@ -1,0 +1,30 @@
+.picture {
+  width: 100%;
+  height: 265px;
+  /* background-color:darkorange ; */
+  display: flex;
+  justify-content: center;
+  /* margin-top: -50px; */
+  .picture-center {
+    width: 75%;
+    height: inherit;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    column-gap: 20px;
+    div {
+      width: 666px;
+      height: 270px;
+      /* background-color: cornflowerblue; */
+      border-radius: 15px;
+      img {
+        width: 666px;
+        height: 270px;
+        border-radius: 15px;
+        object-fit: cover;
+      }
+    }
+  }
+}

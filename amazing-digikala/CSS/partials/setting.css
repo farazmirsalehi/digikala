@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+@font-face {
+  font-family: Yekan;
+  src: url("../../font/yekan/IRANYekanWeb.eot");
+  src: url("../../font/yekan/IRANYekanWeb.ttf");
+  src: url("../../font/yekan/IRANYekanWeb.woff");
+  src: url("../../font/yekan/IRANYekanWeb.woff2");
+}
+@font-face {
+  font-family: bfaraz;
+  src: url("../../font/B-NAZANIN.TTF");
+}
+:root {
+  --borderRadiusSmall: 7px;
+  --borderRadiusMedium: 15px;
+  --borderRadiusBig: 100%;
+  --fontFamily: Yekan;
+  --fontfaraz: bfaraz;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 35px;
+  height: 35px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 12px;
+  font-weight: bold;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: darkmagenta;
+  transform: 300ms;
+}
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 5px;
+  border-radius: 3px;
+}

@@ -1,0 +1,34 @@
+.pepe{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: -65px;
+    justify-content: center;
+    /* margin-top: 60px; */
+   
+    
+    
+    .pepe__center{
+        width: 75%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 16px;
+        div{
+            width: 660px;
+            height: 264px;
+          
+            
+             img{
+                width: 660px;
+                height: 264px;
+                border-radius: 16px;
+               
+                
+             }
+        }
+    
+    }
+}

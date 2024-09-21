@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+.taste {
+    width: 100%;
+    height: 420px;
+    /* background-color: #2b2b2b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    .taste__center {
+        width: 75%;
+        max-width: 1336px;
+        height: inherit;
+        /* background-color: green; */
+        border-radius: var(--borderRAdiusMedium);
+        border: 1px solid lightgray;
+      
+      
+        .text{
+            width: 100%;
+            height: 80px;
+           /* background-color:  lightgray; */
+            display: flex;
+            flex-flow: row wrap;
+            .text__matn{
+                width: 25%;
+                height: inherit;
+                /* background-color: aqua; */
+            padding: 15px 15px 0 0;
+            span{
+                font-weight: 700;
+                line-height: 2.1;
+                color: #23254e;
+            }
+            h5{
+                font-weight: normal;
+                line-height: 2.17;
+                font-size:12px;
+                font-weight: 400;
+                color: #81858b;
+            }
+           
+            }
+        }
+        .row{
+            width: 100%;
+            height: 137px;
+            /* background-color: orangered; */
+            display: flex;
+            flex-flow: row wrap;
+        
+           
+          
+        
+        .product{
+            width: 12.5%;
+            height: inherit;
+            /* background-color: blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          border-right: 1px solid lightgray;
+          border-left: 1px solid lightgray;
+          border-bottom: 1px solid lightgray;
+          
+         
+            img{
+                width: 130px;
+                height: 130px;
+                
+               
+            }
+        }
+    }
+
+ } 
+}
+
+.bottom{
+    border-bottom: 0px !important ;
+}
+/* .borderright{
+    border-right: 1px solid lightgray;
+} */

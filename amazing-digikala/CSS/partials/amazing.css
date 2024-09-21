@@ -1,0 +1,121 @@
+.amazing {
+  width: 100%;
+  /* max-width: 1336px !important; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  .amazing__center {
+    width: 75%;
+    max-width: 1336px !important;
+    height: inherit;
+    background-color: crimson;
+    border-radius: 15px;
+    padding: 20px 0;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .swiper__slide__item {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        /* align-items: center; */
+        row-gap: 5px;
+        img {
+          width: 88px;
+          height: 88px;
+          object-fit: contain;
+        }
+        .clock {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 5px;
+          .faraz {
+            width: 30px;
+            height: 30px;
+            background-color: whitesmoke;
+            line-height: 30px;
+            font-size: 16px;
+            font-family: var(--fontfaraz);
+            border-radius: 5px;
+          }
+          .space {
+            color: whitesmoke;
+          }
+        }
+        a {
+          text-decoration: none;
+          font-family: var(--fontfaraz);
+          color: whitesmoke;
+          font-size: 20px;
+        }
+      }
+      .active {
+        background-color: crimson;
+      }
+
+      .swiper__slide__amazing {
+        display: flex;
+        flex-flow: column wrap;
+        /* justify-content: center;
+        align-items: center; */
+        img {
+          width: 132px;
+          height: 132px;
+        }
+        span {
+          font-family: var(--fontFamily);
+          font-size: 12px;
+          display: --webkit-box;
+          --webkit-box-orient: vertical;
+          --webkit-line-clamp: 2;
+          overflow: hidden;
+          width: 80%;
+          margin: 5px auto;
+        }
+        .discont_price {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          margin-bottom: 10px;
+          span {
+            width: fit-content;
+            font-size: 14px;
+            font-family: var(--fontfaraz);
+            font-weight: bold;
+            /* box-sizing: border-box; */
+            /* font-weight: 700; */
+          }
+        }
+        .price {
+          width: 85%;
+          /* display: block; */
+          /* padding-bottom: 10px !important; */
+          font-family: var(--fontfaraz);
+          text-align: left;
+          text-decoration: line-through;
+          color: lightgrey;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

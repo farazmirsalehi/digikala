@@ -1,0 +1,89 @@
+.favorite {
+  width: 100%;
+  height: 400px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .favorite__center {
+    border: 1px solid lightgray;
+    border-radius: var(--borderRadiusMedium);
+    padding: 10px;
+    /* width: 75%; */
+    /* background-color: burlywood; */
+    .favorite__center__text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        font-size: 25px;
+        font-family: var(--fontfaraz);
+        padding-right: 10px;
+      }
+    }
+    .favorite__center__row {
+      width: 100%;
+      max-width: 1336px !important;
+      padding-top: 20px;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background-color: blueviolet; */
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        row-gap: 30px;
+        .favorite__item {
+          width: 100%;
+          /* height: 100%; */
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          column-gap: 5px;
+          /* text-wrap: wrap; */
+          .favorite__imge {
+            img {
+              width: 90px;
+              height: 100;
+            }
+          }
+          .favorite__number {
+            font-size: 30px;
+            font-family: var(--fontfaraz);
+            color: #19bfd3;
+            font-weight: bold;
+            padding-right: 20px;
+            font-weight: bold;
+          }
+          .favorite__text {
+            font-family: var(--fontfaraz);
+            font-size: 15px;
+            /* display: flex; */
+            /* flex-flow: row wrap; */
+            /* align-items: center; */
+            /* text-wrap:nowrap; */
+            text-align: right;
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
