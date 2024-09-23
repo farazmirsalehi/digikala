@@ -114,9 +114,11 @@ header {
     height: 40px;
     display: flex;
     flex-flow: row wrap;
+    /* background-color: burlywood; */
     .menu__right {
       width: 70%;
       height: inherit;
+      /* background-color: cadetblue; */
       nav {
         width: 100%;
         height: inherit;
@@ -128,6 +130,14 @@ header {
         div {
           width: fit-content;
           height: inherit;
+          /* background-color: darkgrey; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 20px;
+            height: 20px;
+          }
           a {
             display: block;
             width: fit-content;
