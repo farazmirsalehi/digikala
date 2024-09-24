@@ -1,14 +1,14 @@
-.supermarket {
+.supermarket3 {
   width: 100%;
   height: 110px;
   /* background-color: burlywood; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
   justify-content: center;
-  padding-top: 20px;
-  .supermarket__center {
+  padding-top: 100px;
+  .supermarket3__center {
     width: 75%;
-    max-width: 1336px !important;
+    max-width: 1650px !important;
     height: inherit;
     /* background-color: chocolate; */
     display: flex;
