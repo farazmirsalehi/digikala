@@ -2,17 +2,17 @@
     width: 100%;
     height: 90px;
     /* background: #2b2b2b; */
-    border-radius: var(--borderRAdiusMedium);
+    /* border-radius: var(--borderRAdiusMedium); */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 80px;
     .star2__center {
         width: 75%;
-        max-width: 1336px;
+        min-width: 1336px;
         height: inherit;
         background-color:#007295;
-        border-radius: var(--borderRAdiusMedium);
+        border-radius: var(--borderRadiusMedium);
         display: flex;
         flex-flow: no wrap;
         .right{
@@ -33,7 +33,7 @@
     column-gap: 5px;
     justify-content:flex-end;
     align-items: center;
-    border-radius: var(--borderRAdiusMedium);
+    border-radius: var(--borderRadiusMedium);
     padding-left: 16px;
     .picture{
      width: fit-content;
